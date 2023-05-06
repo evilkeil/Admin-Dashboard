@@ -1,2 +1,4 @@
 # Admin-Dashboard
-create an admin dashboard for TOP
+create an admin dashboard for a mock anime site like MAL for TOP
+
+
