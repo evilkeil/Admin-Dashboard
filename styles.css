@@ -39,3 +39,15 @@ ul{
   display: grid;
   justify-items: center;
 }
+
+.logo{
+  align-self: center;
+}
+
+.nav{
+  align-self: center;
+}
+
+.settings{
+  align-self: center;
+}
