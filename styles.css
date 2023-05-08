@@ -91,5 +91,34 @@ ul{
   margin-right: 90px;
 }
 .settings{
+  width: 100%;
+  display: grid;
   align-self: center;
+}
+
+.settings ul{
+  display: grid;
+  gap: 25px;
+  justify-items: end;
+  margin-right: 50px;
+}
+.settings ul > li svg{
+  height: 25px;
+  width: 25px;
+ 
+}
+
+.settings ul > li{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.settings ul>li p.set{
+  margin-right: 20px;
+}
+.settings ul>li p.support{
+  margin-right: 20px;
+}
+.settings ul>li p.privacy{
+  margin-right: 22px;
 }
