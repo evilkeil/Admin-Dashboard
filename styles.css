@@ -52,12 +52,14 @@ ul{
 .nav ul{
   display: grid;
   gap: 50px;
+  justify-items: center;
 }
 .nav ul > li {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
+  display: flex;
+  justify-content: space-around;
   align-items: center;
   justify-items: center;
+  gap: 10px;
  
   
 }
@@ -65,10 +67,12 @@ ul{
 .nav ul > li svg{
   height: 35px;
   width: 35px;
+  
  
 }
 .nav ul > li p.manga{
  margin-right: 100px;
+ margin-left: 0;
 }
 .nav ul >li p.home{
   margin-right: 105px;
