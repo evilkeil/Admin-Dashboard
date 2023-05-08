@@ -126,3 +126,29 @@ ul{
 .settings ul>li p.privacy{
   margin-right: 22px;
 }
+
+/* top layout */
+
+.top{
+  color: white;
+  display: grid;
+  grid-template-columns: 1fr 4fr;
+  align-content: center;
+}
+
+.profile-pic{
+  height: 200px;
+  width: 200px;
+  border-radius: 50%;
+  grid-column: 1;
+  align-self: center;
+  margin-left: 25px;
+  
+}
+
+
+h1.user{
+  align-self: center;
+  
+}
+
