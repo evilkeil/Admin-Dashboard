@@ -45,9 +45,51 @@ ul{
 }
 
 .nav{
+  width: 100%;
+  display: grid;
   align-self: center;
 }
+.nav ul{
+  display: grid;
+  gap: 50px;
+}
+.nav ul > li {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  align-items: center;
+  justify-items: center;
+ 
+  
+}
 
+.nav ul > li svg{
+  height: 35px;
+  width: 35px;
+ 
+}
+.nav ul > li p.manga{
+ margin-right: 100px;
+}
+.nav ul >li p.home{
+  margin-right: 105px;
+}
+
+.nav ul >li p.anime{
+  margin-right: 103px;
+}
+.nav ul >li p.read{
+  margin-right: 108px;
+}
+.nav ul > li p.watch{
+  margin-right: 100px;
+ }
+.nav ul >li p.community{
+  margin-right: 68px;
+}
+
+.nav ul > li p.industry{
+  margin-right: 90px;
+}
 .settings{
   align-self: center;
 }
