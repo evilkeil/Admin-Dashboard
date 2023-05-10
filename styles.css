@@ -23,5 +23,19 @@ body{
 
 .upcoming-wrapper{
     border: 1px solid white;
+    border-radius: 20px;
     background-color: rgba(0, 0, 0, 0.5)
   }
+
+.first svg{
+height: 1.5rem;
+fill:gold;
+}
+.second svg{
+height: 1.5rem;
+fill:silver;
+}
+.third svg{
+height: 1.5rem;
+fill:#5C4326;
+}

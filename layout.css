@@ -244,3 +244,15 @@ h1.user{
   align-items: center;
 }
 
+/* layout for top anime  */
+.topAnime-wrapper{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.topAnime-title{
+
+}
+
+
