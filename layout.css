@@ -182,9 +182,11 @@ h1.user{
   display: grid;
   grid-template-columns: repeat(3,1fr);
   justify-items: center;
+  align-items: end;
 }
 
 .btn-top ul li{
   display: flex;
   align-items: center;
+  justify-content: center;
 }
