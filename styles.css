@@ -176,3 +176,15 @@ h1.user{
 .btn-top{
   grid-column: 3/5;
 }
+
+.btn-top ul{
+  height: 100%;
+  display: grid;
+  grid-template-columns: repeat(3,1fr);
+  justify-items: center;
+}
+
+.btn-top ul li{
+  display: flex;
+  align-items: center;
+}
