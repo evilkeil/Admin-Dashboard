@@ -1,4 +1,5 @@
 body{
+    height: 100vh;
     background-image: url(images/jutsu.png); 
     background-repeat: no-repeat;
     background-size: cover;
@@ -38,4 +39,10 @@ fill:silver;
 .third svg{
 height: 1.5rem;
 fill:#5C4326;
+}
+
+.top-anime li {
+    display: flex;
+    align-items: center;
+    margin-right: 1rem;
 }
