@@ -13,5 +13,15 @@ body{
   }
 
 .main >*{
-    border: 1px solid red;
+    /* border: 1px solid red; */
 }
+
+.upcoming-wrapper ul>li{
+    /* border: 1px solid red; */
+
+}
+
+.upcoming-wrapper{
+    border: 1px solid white;
+    background-color: rgba(0, 0, 0, 0.5)
+  }

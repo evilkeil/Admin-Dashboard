@@ -225,3 +225,22 @@ h1.user{
   grid-column: 2/3;
   grid-row: 3 / 4;
 }
+
+
+/* layout for upcoming anime  */
+
+.upcoming-wrapper{
+  display: grid;
+  grid-template-rows: 1fr 6fr;
+}
+.upcoming-title{
+  align-self: center;
+  text-align: center;
+}
+.upcoming-wrapper ul{
+  display: grid;
+  grid-template-rows: repeat(3,1fr);
+  height: 100%;
+  align-items: center;
+}
+
