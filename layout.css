@@ -1,0 +1,190 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+ul{
+  list-style: none;
+}
+
+  /* Main layout */
+
+#layout{
+  height: 100vh;
+  display: grid;
+  grid-template-columns: 1fr 5fr;
+  }
+
+.side{
+  background-color: orange;/*temp*/
+  grid-row: 1 / 4;
+}
+
+.top{
+  background-color: red;/*temp*/
+  grid-column: 2;
+  grid-row: 1;
+}
+.main{
+  background-color: blue;/*temp*/
+  grid-column:2 ;
+  grid-row: 2/4;
+}
+
+/* side-bar layout */
+
+.side{ 
+  color: white; /*temp*/
+  display: grid;
+  justify-items: center;
+}
+
+.logo{
+  align-self: center;
+}
+
+.nav{
+  width: 100%;
+  display: grid;
+  align-self: center;
+}
+.nav ul{
+  display: grid;
+  gap: 50px;
+  justify-items: center;
+}
+.nav ul > li {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  justify-items: center;
+  gap: 10px;
+ 
+  
+}
+
+.nav ul > li svg{
+  height: 35px;
+  width: 35px;
+  
+ 
+}
+.nav ul > li p.manga{
+ margin-right: 100px;
+ margin-left: 0;
+}
+.nav ul >li p.home{
+  margin-right: 105px;
+}
+
+.nav ul >li p.anime{
+  margin-right: 103px;
+}
+.nav ul >li p.read{
+  margin-right: 108px;
+}
+.nav ul > li p.watch{
+  margin-right: 100px;
+ }
+.nav ul >li p.community{
+  margin-right: 68px;
+}
+
+.nav ul > li p.industry{
+  margin-right: 90px;
+}
+.settings{
+  width: 100%;
+  display: grid;
+  align-self: center;
+}
+
+.settings ul{
+  display: grid;
+  gap: 25px;
+  justify-items: end;
+  margin-right: 50px;
+}
+.settings ul > li svg{
+  height: 25px;
+  width: 25px;
+ 
+}
+
+.settings ul > li{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.settings ul>li p.set{
+  margin-right: 20px;
+}
+.settings ul>li p.support{
+  margin-right: 20px;
+}
+.settings ul>li p.privacy{
+  margin-right: 22px;
+}
+
+/* top layout */
+
+.top{
+  color: white;
+  display: grid;
+  grid-template-columns: repeat(4,1fr);
+  align-content: center;
+}
+
+.profile-pic{
+  height: 200px;
+  width: 200px;
+  border-radius: 50%;
+  grid-column: 1;
+  align-self: center;
+  margin-left: 25px;
+  grid-column: 1/2;
+  
+}
+
+
+h1.user{
+  align-self: center;
+  grid-column: 2/5;
+  
+}
+
+.searchbar{
+  grid-column: 1/3;
+  display: flex;
+  margin-top: 30px;
+  margin-left: 10px;
+}
+
+.searchbar svg{
+  width: 25px;
+  height: 25px;
+}
+
+.searchbar input{
+  height: 30px;
+  width: 70%;
+  border-radius: 10px;
+  border: none;
+}
+
+.btn-top{
+  grid-column: 3/5;
+}
+
+.btn-top ul{
+  height: 100%;
+  display: grid;
+  grid-template-columns: repeat(3,1fr);
+  justify-items: center;
+}
+
+.btn-top ul li{
+  display: flex;
+  align-items: center;
+}
