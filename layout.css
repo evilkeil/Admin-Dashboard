@@ -3,6 +3,13 @@
   padding: 0;
   box-sizing: border-box;
 }
+body{
+    background-image: url(images/The\ Best\ 26\ Jujutsu\ Kaisen\ Minimalist\ Anime\ Wallpaper\ 4K\ \ \ Trunks.png); /* Replace with the path to your background image */
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+  
+}
 
 ul{
   list-style: none;
@@ -17,17 +24,17 @@ ul{
   }
 
 .side{
-  background-color: orange;/*temp*/
+  border: 1px solid black;
   grid-row: 1 / 4;
 }
 
 .top{
-  background-color: red;/*temp*/
+  border: 1px solid black;
   grid-column: 2;
   grid-row: 1;
 }
 .main{
-  background-color: blue;/*temp*/
+  border: 1px solid black;
   grid-column:2 ;
   grid-row: 2/4;
 }
