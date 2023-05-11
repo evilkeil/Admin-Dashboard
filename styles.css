@@ -60,3 +60,39 @@ fill:#5C4326;
     color: black;
     cursor: pointer;
 }
+.card{
+    color: white;
+    background-size: cover;
+    padding: 10rem 0 0;
+
+}
+
+.card.kimetsu{
+    background-image: url(images/kimetsu.webp);
+}
+
+.card.op{
+    background-image: url(images/op.avif);
+}
+.card.ji{
+    background-image: url(images/jigo.jpg);
+}
+.card.dr{
+    background-image: url(images/drstone.jpg);
+}
+.card.mashle{
+    background-image: url(images/mash.avif);
+}
+
+.card.rezero{
+    background-image: url(images/rezero.avif);
+}
+
+.card-content{
+    padding: 1.5em;
+    background:linear-gradient(
+        hsl(0  0% 0%/ 0),
+        hsl(0  0% 0%/ 0.3) 20%,
+        hsl(0  0% 0%/ 1)
+    )
+}
