@@ -64,6 +64,8 @@ fill:#5C4326;
     color: white;
     background-size: cover;
     padding: 10rem 0 0;
+    border-radius: 1rem;
+    overflow: hidden;
 
 }
 
@@ -112,4 +114,21 @@ fill:#5C4326;
     background: greenyellow;
     left: calc(1.5rem * -1);
     bottom:0;
+}
+
+.card-btn{
+    display: inline-block;
+    text-decoration: none;
+    color:black;
+    background: #22726b;
+    padding: 0.5em 1.25em;
+
+}
+.card-btn:hover{
+    cursor: progress;
+    background-color:#529483;
+}
+
+.card-btn:focus{
+    background-color:#529483;
 }
