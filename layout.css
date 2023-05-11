@@ -256,3 +256,13 @@ h1.user{
 }
 
 
+/* card layout  */
+.card{
+display: flex;
+align-items: flex-ends;
+}
+.watch-list{
+  display: grid;
+  grid-template-columns: repeat(auto-fit,minmax(300px,1fr));
+}
+
