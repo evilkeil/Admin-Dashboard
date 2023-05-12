@@ -122,13 +122,15 @@ fill:#5C4326;
     text-decoration: none;
     color:black;
     background: #22726b;
-    padding: 0.5em 1.25em;
-    border-radius: 25px;
+    padding: 0.5em 0.5em;
+    /* border-radius: 25px; */
+    transition: color  250ms ease-in;
 
 }
 .card-btn:hover{
-    cursor: progress;
-    background-color:#529483;
+    cursor: pointer;
+    color:white;
+    /* background-color:#529483; */
 }
 
 .card-btn:focus{
@@ -142,6 +144,7 @@ fill:#5C4326;
     position:relative;
 }
 .hover::after{
+
     content: "";
     position: absolute;
     left: 0;
@@ -155,10 +158,36 @@ fill:#5C4326;
 }
 
 .hover:hover::after{
+    
     transform: scaleX(1);
     transform-origin: left;
 }
 
 .hover:hover{
     cursor: pointer;
+}
+
+/* style the card btns */
+
+.card-btn{
+    position: relative;
+    z-index: 1;
+}
+.card-btn::after{
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: #529483;
+    top: 0;
+    left: 0;
+    z-index: -1;
+    transform: scaleX(0);
+    transform-origin: left;
+    transition: transform  250ms ease-in;
+}
+
+.card-btn:hover::after{
+    transform: scaleX(1);
+    /* border-radius: 25px; */
 }
